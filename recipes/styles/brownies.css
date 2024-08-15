@@ -1,24 +1,32 @@
-p{
+p, ul, ol{
     font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 1.7;
 }
-
+body{
+    background-color: rgb(88, 57, 39);
+}
 
 .brownie-picture{
     display: block;
     border-radius: 50px;
     
+    
 }
-
 .brownie-head{
     color: white;
     position: absolute;
-    left:27%;
+    left:23%;
 }
-
 .header{
     text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
 }
-
 .line-one{
     border-bottom: 1px solid #888;
+}
+.ingredients{
+    margin-left: 295px;
 }
