@@ -1,5 +1,5 @@
-p, ul, ol{
-    font-family: 'Times New Roman', Times, serif;
+p, ul, ol, .brownie-head, .header{
+    font-family: serif;
     color: white;
     line-height: 1.7;
 }
@@ -28,5 +28,5 @@ body{
     border-bottom: 1px solid #888;
 }
 .ingredients{
-    margin-left: 295px;
+    margin-left: 285px;
 }

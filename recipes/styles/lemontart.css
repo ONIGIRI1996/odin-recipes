@@ -1,0 +1,25 @@
+p, ul, ol{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    line-height: 1.7;
+}
+
+body{
+    background-color: beige;
+}
+
+.lemontart-picture{
+    display: block;
+    border-radius: 50px;
+}
+.lemontart-head{
+    position: absolute;
+    left: 24%;
+    color: white;
+}
+.head{
+    text-align: center;
+}
+ul{
+    margin-left: 297px;
+}

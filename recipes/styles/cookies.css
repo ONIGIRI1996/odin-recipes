@@ -1,0 +1,28 @@
+p, ol, ul, .cookie-head, .head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7;
+
+}
+
+body{
+    background-color: rgb(229, 178, 115);
+}
+
+ul{
+    margin-left: 260px;
+}
+.cookie-picture{
+    border-radius: 50px;
+    display: block;
+}
+
+.cookie-head{
+    position: absolute;
+    left: 24%;
+}
+
+.head{
+    text-align: center;
+    
+}
+
