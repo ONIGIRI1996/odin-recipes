@@ -3,6 +3,12 @@ p, ul, ol, .brownie-head, .header{
     color: white;
     line-height: 1.7;
 }
+
+* {
+    outline: 2px solid red;
+  }
+
+
 body{
     background-color: rgb(88, 57, 39);
 }
