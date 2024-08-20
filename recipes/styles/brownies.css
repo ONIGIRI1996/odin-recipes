@@ -1,53 +1,70 @@
-p, ul, ol, .brownie-head, .header{
+/* General Styles */
+body {
+    background-color: rgb(88, 57, 39);
+}
+
+p, ul, ol, .brownie-head, .header {
     font-family: serif;
     color: white;
     line-height: 1.7;
 }
-body{
-    background-color: rgb(88, 57, 39);
+
+/* Header Styles */
+.header {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
-.content-description{
+/* Brownie Head Styles */
+.brownie-head {
+    display: block;
+}
+
+/* Brownie Recipe Styles */
+.brownie-recipe {
     text-align: center;
 }
 
-.content-ingredients{
+/* Content Description Styles */
+.content-description {
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin: 8px 250px;
+}
+
+/* Content Ingredients Styles */
+.content-ingredients {
+    border: 2px solid gray;
+    border-radius: 50px;
     list-style-position: inside;
-    text-align: center;
-}
-.content-steps{
-    text-align: center;
-    list-style-position: inside;
+    margin: 8px 250px;
 }
 
-.steps{
+/* Content Steps Styles */
+.content-steps {
+    border: 2px solid gray;
+    border-radius: 30px;
+    list-style-position: inside;
+    margin: 15px 250px;
+}
+
+/* Ingredients and Steps Padding */
+.ingredients {
+    padding-right: 55px;
+}
+
+.steps {
     padding-right: 50px;
 }
 
-.ingredients{
-    padding-right: 55px;
-}
-.brownie-picture{
-    margin: 0 auto;
-    
+/* Brownie Picture Styles */
+.brownie-picture {
+    margin: 8px auto;
     display: block;
     border-radius: 50px;
-    
-    
 }
-.brownie-head{
-    text-align: center;
-    color: white;
-    display: block;
-    
-    
-}
-.header{
-    text-align: center;
-    text-decoration: underline;
-    color: white;
-    font-weight: bold;
-}
-.line-one{
+
+/* Line Styles */
+.line-one {
     border-bottom: 1px solid #888;
 }
