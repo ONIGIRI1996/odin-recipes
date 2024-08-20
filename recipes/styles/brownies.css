@@ -3,26 +3,44 @@ p, ul, ol, .brownie-head, .header{
     color: white;
     line-height: 1.7;
 }
-
-* {
-    outline: 2px solid red;
-  }
-
-
 body{
     background-color: rgb(88, 57, 39);
 }
 
+.content-description{
+    text-align: center;
+}
+
+.content-ingredients{
+    list-style-position: inside;
+    text-align: center;
+}
+.content-steps{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.steps{
+    padding-right: 50px;
+}
+
+.ingredients{
+    padding-right: 55px;
+}
 .brownie-picture{
+    margin: 0 auto;
+    
     display: block;
     border-radius: 50px;
     
     
 }
 .brownie-head{
+    text-align: center;
     color: white;
-    position: absolute;
-    left:23%;
+    display: block;
+    
+    
 }
 .header{
     text-align: center;
@@ -32,7 +50,4 @@ body{
 }
 .line-one{
     border-bottom: 1px solid #888;
-}
-.ingredients{
-    margin-left: 285px;
 }
